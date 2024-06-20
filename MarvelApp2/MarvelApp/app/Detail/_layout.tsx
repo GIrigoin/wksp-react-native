@@ -54,6 +54,12 @@ export default function TabLayout() {
           tabBarIcon: ({ color }) => (
             <FontAwesome size={28} name="newspaper-o" color={color} />
           ),
+          href: {
+            pathname: "/Detail/Comics",
+            params: {
+              listComics: JSON.stringify(data?.comics?.items),
+            },
+          },
         }}
       ></Tabs.Screen>
     </Tabs>
