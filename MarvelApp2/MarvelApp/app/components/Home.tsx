@@ -103,6 +103,7 @@ export default function Home() {
               size="xl"
               color="error"
               containerStyle={{ flex: 1 }}
+              titleStyle={{ fontSize: 9 }}
             >
               Buscar
             </Button>
@@ -110,6 +111,7 @@ export default function Home() {
               onPress={handleReset}
               size="xl"
               containerStyle={{ flex: 1 }}
+              titleStyle={{ fontSize: 9 }}
             >
               Reset
             </Button>

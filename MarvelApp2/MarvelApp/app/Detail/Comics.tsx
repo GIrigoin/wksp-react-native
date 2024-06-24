@@ -30,7 +30,7 @@ export default function Comics() {
   }, []);
 
   return route.params ? (
-    <ScrollView horizontal={true}>
+    <ScrollView horizontal={true} style={{ margin: 5 }}>
       {data.map((c) => (
         <Comic
           key={c.id}
